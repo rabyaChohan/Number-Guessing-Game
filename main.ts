@@ -1,7 +1,8 @@
 import inquirer from "inquirer";
 
 
-const randomNumber = 26;
+const randomNumber = Math.floor(Math.random() * 10 );
+
 
 const result = await inquirer.prompt([{
     name: "userGuessednum",
