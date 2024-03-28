@@ -20,3 +20,5 @@ if(result.userGuessednum === randomNumber){
 } else {
     console.log("You Guess Wrong Number")
 }
+
+
